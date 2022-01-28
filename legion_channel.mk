@@ -26,9 +26,9 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 #Device Maintainer
-DEVICE_MAINTAINER := Giovany Veloso
-BUILD_MAINTAINER := Giovany Veloso
-LEGION_BUILD_MAINTAINER := Giovany Veloso
+DEVICE_MAINTAINER := Giovany 
+BUILD_MAINTAINER := Giovany 
+LEGION_BUILD_MAINTAINER := Giovany 
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
