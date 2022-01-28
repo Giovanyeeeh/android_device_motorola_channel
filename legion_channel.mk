@@ -25,10 +25,9 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 # Inherit from channel device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-#Device Maintainer
-DEVICE_MAINTAINER := Giovany 
-BUILD_MAINTAINER := Giovany 
-LEGION_BUILD_MAINTAINER := Giovany 
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=GiovanYCringe
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
@@ -41,4 +40,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRIVATE_BUILD_DESC="channel-user 9 PPY29.148-140 687ae release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := motorola/channel_retail/channel:9/PPY29.148-140/687ae:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys
