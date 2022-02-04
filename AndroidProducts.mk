@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_channel.mk
+    $(LOCAL_DIR)/lineage_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_channel-eng \
-    legion_channel-user \
-    legion_channel-userdebug
+    lineage_channel-eng \
+    lineage_channel-user \
+    lineage_channel-userdebug
