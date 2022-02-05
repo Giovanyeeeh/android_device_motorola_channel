@@ -28,6 +28,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Sakura Maintainer Unofficial
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sakura.maintainer=GiovanYCringe
+    SAKURA_MAINTAINER := Giovany
+    SAKURA_MAINTAINTER := Giovanyeeeh
+SAKURA_MAINTAINER :=Giovanyeeeh
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
