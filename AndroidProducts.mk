@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_channel.mk
+    $(LOCAL_DIR)/kasumi_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_channel-eng \
-    corvus_channel-user \
-    corvus_channel-userdebug
+    kasumi_channel-eng \
+    kasumi_channel-user \
+    kasumi_channel-userdebug
