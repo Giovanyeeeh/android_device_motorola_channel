@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/kasumi_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    kasumi_channel-eng \
-    kasumi_channel-user \
-    kasumi_channel-userdebug
+    xtended_channel-eng \
+    xtended_channel-user \
+    xtended_channel-userdebug
