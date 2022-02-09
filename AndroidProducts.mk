@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kasumi_channel.mk
+    $(LOCAL_DIR)/xtended_channel.mk
 
 COMMON_LUNCH_CHOICES := \
     xtended_channel-eng \
